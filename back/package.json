@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "load": "ts-node ./src/controllers/load.ts",
+    "start": "ts-node ./src",
+    "dev": "ts-node-dev ./src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.6",
+    "@vis.gl/react-google-maps": "^1.5.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "pg": "^8.16.0",
+    "react-native": "^0.79.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.2",
+    "@types/pg": "^8.11.13",
+    "@types/react": "^19.1.6",
+    "@types/react-native": "^0.73.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
