@@ -59,7 +59,7 @@ export default function MapComponent({
   const zoom = cidade ? 12 : 4;
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBRYyMHDzS355bpfMsWVmN0AfOw4foAPXk">
+    <LoadScript googleMapsApiKey="">
       <Map
         key={center.lat + "," + center.lng}
         mapContainerClassName="map-container"
